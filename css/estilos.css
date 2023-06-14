@@ -1,0 +1,107 @@
+*{margin:0px; padding: 0px}
+
+@font-face {
+    font-family: 'Romanesco'; 
+    src: url(/fuente/Romanesco-Regular.ttf);   
+}
+
+@font-face {
+    font-family: "Inter-semi";
+    src: url(/fuente/Inter-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url(/fuente/Inter-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*cabecera*/
+header{font-family: Inter-regular; font-size: 16px; height: 70px ; background-color: #A3A656; display: flex; align-items: center;}
+.header{clear: both;float: left ;margin: 70px}
+.header ul{list-style: none}
+.header ul li{display: inline-block; margin: 0px 30px 0px 0px;}
+.header ul li:hover{ color: #FFFF00}
+
+/*Cuenta*/
+.config{float: right}
+.config{display: flex; align-items: center; font-size: 14px; margin-left: 525px;}
+.config img{width: auto; height: 100%;}
+.config #user{margin-right: 10px;}
+.config #micuenta{margin-right: 50px;}
+.config #es{margin-right: 10px;}
+.config #flag{margin-right: 10px;}
+
+/*inicio*/
+.fondo{display: flex;}
+.fondo img{width:100%; height: 100%; margin-top: -6px; margin-bottom: -6px;  }
+.fondo h2{font-family: Inter-semi; font-size: 32px; position: absolute; top:  49%; left: 12%;}
+.fondo p{font-family: Romanesco; font-size: 96px; position: absolute; top: 30%; left: 12%;}
+
+
+
+/*citas*/
+.citas{font-family: Inter-regular; font-size: 16px; height: 100px; background-color: #F2F6F6; display: flex; align-items: center}
+#reserva{margin-left: 275px;}
+#promocion{margin-left: 75px;}
+#reserva input{ border-radius: 15px 15px 15px 15px; height: 50px; width: 300px; border: none; margin-left: 20px;}
+#promocion input{font-size: 16px; color: #9E9A9A; border-radius: 15px 15px 15px 15px;height: 50px; width: 170px; border: none; margin-left: 10px;}
+
+/*Servicios*/
+.servicios{display: flex; margin-top: 100px; margin-bottom: 70px;}
+.servicios img{width: 100%; height: 100%;}
+.servicios #pies{margin: auto;}
+.servicios #masaje{margin: auto;}
+.servicios #bambu{margin: auto;}   
+
+
+
+.precio{font-family: Inter-semi; font-size: 32px; display: inline; margin-left: 10px;}
+.mensaje{font-family: Inter-regular; font-size: 16px; margin-bottom: 20px; margin-top: 10px;}
+
+
+.titulo{font-family: Inter-semi; font-size: 32px; background-color: #A3A656; text-align: center; border-radius: 15px 15px 0px 0px; height: 80px; display: flex; align-items: center;}
+.titulo p{color: #FFFFFF; margin: auto;}
+.boton{font-family: Inter-semi; font-size: 16px; background-color:  #A3A656; border-radius: 35px; float: right; color: #FFFFFF; height: 40px; width: 150px; display: flex; align-items: center; margin-top: 10px;}
+.boton p{margin: auto;}
+
+
+/*beneficios*/
+#mem{background-color: #F2F6F6; height: 770px; display: block}
+#titulo2{text-align: center;font-family: Inter-semi; font-size: 32px; margin-top: 50px;}
+#asd{display: flex; margin-top: 80px;}
+
+#asd img{margin-top: auto;}
+.tipo{font-family: Inter-semi; font-size: 32px; text-align: center;}
+
+.condiciones{font-family: Inter-regular; font-size: 16px; color:#FFFFFF; background-color: #A3A656; border-radius: 35px; height: 50px; width: 290px; display: flex; margin-top: 50px;}
+.condiciones p{margin: auto;}
+.membresia{margin-left: 180px;}
+
+
+.membresia ul{margin-top: 30px; display: block; text-align: left; margin-left: 50px;}
+.membresia ul li{font-family: Inter-regular; font-size: 16px;}
+
+.corona{width: 233px; height: 233px; display: flex; align-items: center; border-color: #384001; border-width: 10px; border-style: solid; border-radius: 50%; background-color: #FFFFFF;}
+.corona img{margin: auto; width: auto; height: auto;} 
+.membresia .corona{margin: auto;}
+
+
+
+
+
+/*pie de página*/
+footer{font-family: Inter-regular; font-size: 16px; color: #A3A656; height: 97px; background-color: #384001; display: flex; align-items: center;}
+.foot{clear: both;float: left ;margin:70px}
+.foot ul{list-style: none}
+.foot ul li{display: inline-block; margin: 0px 90px 0px 0px;}
+.foot ul li:hover{ color:#FFFF00}
+.redes{float: right;}
+.redes{display: flex; align-items: center;}
+
+.redes #face{margin-left: 35px; margin-right: 35px;}
+.redes #youtube{margin-left: 35px;}
